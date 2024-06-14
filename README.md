@@ -11,6 +11,12 @@ First Thing first! Identify your platform and create/move to the corresponding f
 
 Also, please, create a `README.md` file, containing the problem that'll be solved, at least a short description is required
 
+For commit convention, use the Problem name + status, e.g.
+```
+git commit -m "Diagonal Difference Problem"
+git commit -m "Diagonal Difference Solution"
+```
+
 On CLI, to add the solution for the "[Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference/problem?isFullScreen=true)" (from HackerRank), it'd be like this:
 
 ```bash
