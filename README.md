@@ -4,6 +4,13 @@
 
 I'll use it as both showcase and for quick reference after completing these challenges, the primary purpose of this project is just to practice and get better overall
 
+## Commits
+For commit convention, just add the problem's name with its status (`Problem`, `Solution`), e.g.
+```bash
+git commit -m "Diagonal Difference Problem"
+git commit -m "Diagonal Difference Solution"
+```
+
 ## Adding new solutions:
 I won't force myself to use a single language to solve all challenges, but I'll standardize how to add a new solution, and how to run it  
 
@@ -88,10 +95,3 @@ BUILD SUCCESSFUL in 1m
 ```
 
 ###### Reference: [How to create new Kotlin project by CLI?](https://stackoverflow.com/questions/69081703/how-to-create-new-kotlin-project-by-cli)
-
-## Commits
-For commit convention, just add the problem's name with its status (`Problem`, `Solution`), e.g.
-```bash
-git commit -m "Diagonal Difference Problem"
-git commit -m "Diagonal Difference Solution"
-```
