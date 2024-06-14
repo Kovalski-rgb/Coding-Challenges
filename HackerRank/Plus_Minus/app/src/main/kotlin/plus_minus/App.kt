@@ -24,8 +24,9 @@ import kotlin.text.*
  */
 
 fun plusMinus(arr: Array<Int>): Unit {
-    // Write your code here
-
+    println("%.6f".format(arr.count { it > 0 } /arr.size.toDouble()))
+    println("%.6f".format(arr.count { it < 0 } /arr.size.toDouble()))
+    println("%.6f".format(arr.count { it == 0 } /arr.size.toDouble()))
 }
 
 fun main(args: Array<String>) {
