@@ -11,12 +11,6 @@ First Thing first! Identify your platform and create/move to the corresponding f
 
 Also, please, create a `README.md` file, containing the problem that'll be solved, at least a short description is required
 
-For commit convention, use the Problem name + status, e.g.
-```
-git commit -m "Diagonal Difference Problem"
-git commit -m "Diagonal Difference Solution"
-```
-
 On CLI, to add the solution for the "[Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference/problem?isFullScreen=true)" (from HackerRank), it'd be like this:
 
 ```bash
@@ -89,7 +83,15 @@ Generate build using new APIs and behavior (some features may change in the next
 To learn more about Gradle by exploring our Samples at https://docs.gradle.org/8.4/samples/sample_building_kotlin_applications.html
 
 BUILD SUCCESSFUL in 1m
+
 2 actionable tasks: 2 executed
 ```
 
 ###### Reference: [How to create new Kotlin project by CLI?](https://stackoverflow.com/questions/69081703/how-to-create-new-kotlin-project-by-cli)
+
+## Commits
+For commit convention, just add the problem's name with its status (`Problem`, `Solution`), e.g.
+```bash
+git commit -m "Diagonal Difference Problem"
+git commit -m "Diagonal Difference Solution"
+```
