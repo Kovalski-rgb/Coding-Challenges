@@ -5,10 +5,12 @@
 I'll use it as both showcase and for quick reference after completing these challenges, the primary purpose of this project is just to practice and get better overall
 
 ## Commits
-For commit convention, just add the problem's name with its status (`Problem`, `Solution`), e.g.
+For commit convention, just add the problem's name with its status (`Problem`, `Solution`, `Optimization`, `Refactor`), e.g.
 ```bash
 git commit -m "Diagonal Difference Problem"
 git commit -m "Diagonal Difference Solution"
+git commit -m "Diagonal Difference Optimization"
+git commit -m "Diagonal Difference Refactor"
 ```
 
 ## Adding new solutions:
